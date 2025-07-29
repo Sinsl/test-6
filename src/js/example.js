@@ -3,7 +3,7 @@ export function func(container) {
   let count = 555;
   idInterval = setInterval(() => {
     container.textContent = count;
-    console.log("debag", count);
+    console.log("debagggg", count);
     count += 10;
     if (count > 640) {
       clearInterval(idInterval);
